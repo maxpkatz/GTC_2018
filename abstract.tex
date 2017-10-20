@@ -63,6 +63,17 @@
 
 \section{Session Description}
 
+In this session you'll hear about one team's experience preparing an adaptive mesh
+refinement library -- and a fluid dynamics code based on it -- for Summit, the
+IBM POWER9 and NVIDIA Volta system at Oak Ridge National Laboratory, where multiple GPUs
+are connected via NVLink to each other and the CPUs. It was simple to compile and run on
+the OpenPOWER architecture, and to offload to the GPUs with CUDA Fortran, with little
+architecture-specific code. Initial results with POWER8 and P100 have shown 
+excellent CPU and GPU performance and good multi-node scaling for an astrophysics mini-app
+that was difficult to run effectively on prior GPU architectures. We will also discuss
+our experiences porting other modules in our multi-physics codes, and preliminary
+results on the POWER9 and V100 platform.
+
 \section{Extended Abstract}
 
 % Put a citation in here just to get the references to compile
